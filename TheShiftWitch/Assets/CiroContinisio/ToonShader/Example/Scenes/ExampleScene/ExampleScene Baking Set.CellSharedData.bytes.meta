@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b43d836408a434feda2df49f5318d6a4
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259777
+  packageName: URP Toon Shader
+  packageVersion: 1.2.0
+  assetPath: Assets/CiroContinisio/ToonShader/Example/Scenes/ExampleScene/ExampleScene
+    Baking Set.CellSharedData.bytes
+  uploadId: 986822

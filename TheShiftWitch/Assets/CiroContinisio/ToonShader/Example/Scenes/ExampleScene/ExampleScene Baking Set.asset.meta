@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bb242b1a6e1ee4404a670d29deb6c562
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 259777
+  packageName: URP Toon Shader
+  packageVersion: 1.2.0
+  assetPath: Assets/CiroContinisio/ToonShader/Example/Scenes/ExampleScene/ExampleScene
+    Baking Set.asset
+  uploadId: 986822
