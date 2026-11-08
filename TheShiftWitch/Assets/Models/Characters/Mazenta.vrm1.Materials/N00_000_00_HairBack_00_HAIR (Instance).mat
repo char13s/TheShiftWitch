@@ -25,7 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SHADING_STYLE_SKIN_AND_TEXTILES
+  - _SHADING_STYLE_HAIR_AND_METAL
   m_InvalidKeywords:
   - _MTOON_EMISSIVEMAP
   - _NORMALMAP
@@ -41,7 +41,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a81f47629a83d074eaf445b2e71eb431, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -124,7 +124,7 @@ Material:
     - _RimFresnelPower: 100
     - _RimLift: 0.1
     - _RimLightingMix: 1
-    - _SHADING_STYLE: 0
+    - _SHADING_STYLE: 1
     - _ShadingShiftFactor: -0.19999999
     - _ShadingShiftTexScale: 1
     - _ShadingToonyFactor: 0.8
@@ -139,7 +139,7 @@ Material:
     - _UvAnimScrollXSpeed: 0
     - _UvAnimScrollYSpeed: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 0.9333334, g: 0.7607844, b: 0.8352942, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.85882354, g: 0.69411767, b: 0.69411767, a: 1}
     - _MatcapColor: {r: 0, g: 0, b: 0, a: 1}
