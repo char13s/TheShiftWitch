@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _SHADING_STYLE_SKIN_AND_TEXTILES
+  - _SHADING_STYLE_HAIR_AND_METAL
   m_InvalidKeywords:
   - _MTOON_EMISSIVEMAP
   - _MTOON_OUTLINE_WORLD
@@ -30,7 +30,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 1296732a5a07e0e4680950f64789e082, type: 3}
+        m_Texture: {fileID: 2800000, guid: 67972b472171b7d4b88fffc5400abd04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -113,7 +113,7 @@ Material:
     - _RimFresnelPower: 100
     - _RimLift: 0.1
     - _RimLightingMix: 1
-    - _SHADING_STYLE: 0
+    - _SHADING_STYLE: 1
     - _ShadingShiftFactor: -0.050000012
     - _ShadingShiftTexScale: 1
     - _ShadingToonyFactor: 0.95
