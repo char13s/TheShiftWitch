@@ -31,18 +31,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature.rig|Stance Idle (1)
-      takeName: Armature.rig|Stance Idle
+      name: Armature.rig|Run.001
+      takeName: Armature.rig|Run.001
       internalID: 2509992798210544320
-      firstFrame: 0
-      lastFrame: 59
+      firstFrame: 24
+      lastFrame: 47
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
