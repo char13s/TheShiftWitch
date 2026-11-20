@@ -17,202 +17,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Armature.rig|Knight Light Attack' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Knight Light
-      Attack 2' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Knight Light
-      Attack 3' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale
-      animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperArm'
-      has scale animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_UpperArm'
-      has scale animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Knight Light
-      Attack.002' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Knight Stance
-      Idle.001' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale
-      animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Run' has
-      import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_fk.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Hand'
-      has scale animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Run.001'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'spine_fk.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'MCH-spine.002' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'MCH-spine.003'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Hand'
-      has scale animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerArm'
-      has scale animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Hand'
-      has scale animation that will be discarded.\n\nClip 'Armature.rig|Slash.01'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MCH-spine.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'MCH-spine'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_L_ToeBase' has scale
-      animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg' has
-      scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_ToeBase' has scale
-      animation that will be discarded.\n\t'spine_fk.002' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerArm' has
-      scale animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'Armature.rig|Stance Idle' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'J_Bip_L_UpperLeg'
-      has scale animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_L_Foot'
-      has scale animation that will be discarded.\n\t'J_Bip_R_UpperLeg' has scale
-      animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_LowerLeg'
-      has scale animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'J_Bip_R_Foot'
-      has scale animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -224,7 +29,355 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.rig|Dodge
+      takeName: Armature.rig|Dodge
+      internalID: 7332574591218879611
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Knight Light Attack
+      takeName: Armature.rig|Knight Light Attack
+      internalID: 7995615081124669886
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Knight Light Attack 2
+      takeName: Armature.rig|Knight Light Attack 2
+      internalID: -396477679542352385
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Knight Light Attack 3
+      takeName: Armature.rig|Knight Light Attack 3
+      internalID: 5817910806860058921
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Knight Light Attack refined
+      takeName: Armature.rig|Knight Light Attack refined
+      internalID: 8559896082172684663
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Knight Stance Idle.001
+      takeName: Armature.rig|Knight Stance Idle.001
+      internalID: 4678987129732921911
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Parry
+      takeName: Armature.rig|Parry
+      internalID: 5781581227085922625
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Parry Counter
+      takeName: Armature.rig|Parry Counter
+      internalID: -2404436384823188977
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Run
+      takeName: Armature.rig|Run
+      internalID: 6320551024981002837
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Run.001
+      takeName: Armature.rig|Run.001
+      internalID: -2180152687291219822
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Slash.01
+      takeName: Armature.rig|Slash.01
+      internalID: 4936358134202602033
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.rig|Stance Idle
+      takeName: Armature.rig|Stance Idle
+      internalID: -2863092551462866475
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
