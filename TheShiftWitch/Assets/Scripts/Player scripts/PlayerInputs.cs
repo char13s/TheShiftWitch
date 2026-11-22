@@ -20,6 +20,9 @@ public class PlayerInputs : MonoBehaviour
     private void OnDodge() {
         animator.Play("Dodge");
     }
+    private void OnDevour() {
+        animator.SetTrigger("Devour");
+    }
     private void OnPause() { 
         onPause?.Invoke();
     }
