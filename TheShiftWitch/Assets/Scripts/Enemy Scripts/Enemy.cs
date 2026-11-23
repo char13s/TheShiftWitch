@@ -3,6 +3,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     internal EnemyStats stats = new EnemyStats();
+    public enum EnemyHealthStatus { FullHealth, MeduimHealth, LowHealth }
+    public enum StatusEffectType { None, Burned, Frozen, Paralyzed } 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
