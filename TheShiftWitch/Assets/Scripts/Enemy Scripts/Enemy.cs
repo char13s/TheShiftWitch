@@ -41,15 +41,19 @@ public class Enemy : MonoBehaviour
     public bool Timelining { get => timelining; set => timelining = value; }
     public CharacterController CharCon { get => charCon; set => charCon = value; }
 
+    private void Awake() {
+        player=Player.GetPlayer();
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player=Player.GetPlayer();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        States();
         Distance = Vector3.Distance(player.transform.position, transform.position);
     }
     public void TakeDamage(int damage) {
