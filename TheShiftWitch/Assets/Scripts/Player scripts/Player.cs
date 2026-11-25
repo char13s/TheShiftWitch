@@ -9,9 +9,11 @@ public class Player : MonoBehaviour
     bool isAttacking = false;
     bool isInvincible = false;
     bool isPlayingSkill = false;
+    float moveSpeed = 7;
     public bool IsInvincible { get => isInvincible; set => isInvincible = value; }
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
     public bool IsPlayingSkill { get => isPlayingSkill; set => isPlayingSkill = value; }
+    public float MoveSpeed { get => moveSpeed; set => moveSpeed = value; }
 
     private void Awake() {
         if (instance != null && instance != this) {

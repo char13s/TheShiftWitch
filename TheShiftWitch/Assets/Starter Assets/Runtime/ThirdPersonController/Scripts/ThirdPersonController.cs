@@ -16,6 +16,7 @@ namespace StarterAssets
     {
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
+        
         public float MoveSpeed = 2.0f;
 
         [Tooltip("Sprint speed of the character in m/s")]
@@ -105,6 +106,7 @@ namespace StarterAssets
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
+        
 
         private const float _threshold = 0.01f;
 
@@ -121,7 +123,6 @@ namespace StarterAssets
 #endif
             }
         }
-
 
         private void Awake()
         {
@@ -152,8 +153,9 @@ namespace StarterAssets
             _fallTimeoutDelta = FallTimeout;
         }
 
-        private void Update()
-        {
+        private void Update() {
+            if (IsTimelinePlaying) return;
+
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();
@@ -161,11 +163,11 @@ namespace StarterAssets
             Move();
         }
 
-        private void LateUpdate()
-        {
+        private void LateUpdate() {
+            if (IsTimelinePlaying) return;
+
             CameraRotation();
         }
-
         private void AssignAnimationIDs()
         {
             _animIDSpeed = Animator.StringToHash("Speed");
@@ -347,7 +349,28 @@ namespace StarterAssets
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
         }
+        public bool IsTimelinePlaying { get; private set; }
 
+        public void SetTimelineLock(bool locked) {
+            IsTimelinePlaying = locked;
+
+            if (locked) {
+                _speed = 0f;
+                _animationBlend = 0f;
+                _verticalVelocity = 0f;
+                _targetRotation = transform.eulerAngles.y;
+
+                if (_input != null) {
+                    _input.move = Vector2.zero;
+                    _input.jump = false;
+                }
+
+                if (_hasAnimator) {
+                    _animator.SetFloat(_animIDSpeed, 0f);
+                    _animator.SetFloat(_animIDMotionSpeed, 0f);
+                }
+            }
+        }
         private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
         {
             if (lfAngle < -360f) lfAngle += 360f;

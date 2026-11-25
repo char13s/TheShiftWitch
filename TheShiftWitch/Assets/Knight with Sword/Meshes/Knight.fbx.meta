@@ -1,9 +1,26 @@
 fileFormatVersion: 2
 guid: 019df69c9b13e46409c3490b3c31dfb8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 351132
+  packageName: Knight with Sword
+  packageVersion: 1.0
+  assetPath: Assets/Knight with Sword/Meshes/Knight.fbx
+  uploadId: 838470
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 0004c9cabb5b13547b70a0b5908e4399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head1
+    second: {fileID: 2100000, guid: 0e609cd0c711ca3448c6ebfb4da773f3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -916,10 +933,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 351132
-  packageName: Knight with Sword
-  packageVersion: 1.0
-  assetPath: Assets/Knight with Sword/Meshes/Knight.fbx
-  uploadId: 838470
