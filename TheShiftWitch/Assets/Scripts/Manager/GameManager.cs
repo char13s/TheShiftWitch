@@ -2,6 +2,7 @@ using System.Collections;
 
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,10 +14,12 @@ public class GameManager : MonoBehaviour
     private void OnEnable() {
         PlayerInputs.onPause += PauseGameControls;
         Hitbox.onHitStop += StartHitStop;
+        LevelManager.unPauseGame += UnpauseGame;
     }
     private void OnDisable() {
         PlayerInputs.onPause -= PauseGameControls;
         Hitbox.onHitStop -= StartHitStop;
+        LevelManager.unPauseGame -= UnpauseGame;
     }
     void Start()
     {
@@ -55,5 +58,16 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 1.0f;
        // }
         isWaiting = false;
+    }
+    private void BeginRumbling(float low, float high) {
+        if (Gamepad.current != null) {
+            Gamepad.current.SetMotorSpeeds(low, high);
+            StartCoroutine(waitToStopRumble());
+        }
+    }
+
+    IEnumerator waitToStopRumble() {
+        yield return new WaitForSecondsRealtime(0.2f);
+        Gamepad.current?.SetMotorSpeeds(0, 0);
     }
 }

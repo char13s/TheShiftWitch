@@ -1,13 +1,19 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
+    public static event UnityAction onPlayerDeath;
+    private int health = 100;
+    private int maxHealth = 100;
+    private int mp = 100;
+    private int maxMp = 100;
     private static Player instance;
     public static Player GetPlayer() => instance;
-
+    private Animator anim;
     CinemachineImpulseSource pulse;
-
+    //internal Stats stats=new Stats();
     bool isDead = false;
     bool isAttacking = false;
     bool isInvincible = false;
@@ -17,6 +23,9 @@ public class Player : MonoBehaviour
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
     public bool IsPlayingSkill { get => isPlayingSkill; set => isPlayingSkill = value; }
     public float MoveSpeed { get => moveSpeed; set => moveSpeed = value; }
+    public Animator Anim { get => anim; set => anim = value; }
+    public int Health { get => health; set { health = value; ProcessHealth(); } }
+    public int Mp { get => mp; set => mp = value; }
 
     private void Awake() {
         if (instance != null && instance != this) {
@@ -26,17 +35,31 @@ public class Player : MonoBehaviour
             instance = this;
         }
         pulse = GetComponent<CinemachineImpulseSource>();
+        anim = GetComponent<Animator>();
     }
     private void OnEnable() {
         Hitbox.onImpact += PlayDynamicShake;
+        HurtBox.onImpact += PlayDynamicShake;
     }
     private void OnDisable() {
         Hitbox.onImpact -= PlayDynamicShake;
+        HurtBox.onImpact -= PlayDynamicShake;
     }
     private void PlayDynamicShake(float intensity) {
         if (pulse == null) return;
         Vector3 shakeVector = new Vector3(intensity, intensity, intensity);
         pulse.GenerateImpulseWithVelocity(shakeVector);
 
+    }
+    public void TakeDamage(int val) {
+        Health -= val;
+    }
+    private void ProcessHealth() { 
+        if(health <= 0 && !isDead) {
+            isDead = true;
+            onPlayerDeath?.Invoke();
+            Time.timeScale = 0f;
+            anim.Play("Death");
+        }
     }
 }
