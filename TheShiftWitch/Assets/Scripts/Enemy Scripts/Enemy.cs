@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
     bool lowHealth;
     bool timelining;
     float MoveSpeed = 2f;
+    int shield;
     #endregion
 
     internal EnemyStats stats = new EnemyStats();
@@ -40,21 +42,26 @@ public class Enemy : MonoBehaviour
     public bool Walk { get => walk; set => walk = value; }
     public bool Timelining { get => timelining; set => timelining = value; }
     public CharacterController CharCon { get => charCon; set => charCon = value; }
+    public int Shield { get => stats.StaggerLeft; set => shield = value; }
+    public Player Player { get => player; set => player = value; }
 
     private void Awake() {
-        
+        Anim=GetComponent<Animator>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player=Player.GetPlayer();
+        print("start");
+        Player=Player.GetPlayer();
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
         States();
-        Distance = Vector3.Distance(player.transform.position, transform.position);
+        if(Player!=null)
+            Distance = Vector3.Distance(Player.transform.position, transform.position);
+        print(distance);
     }
     public void TakeDamage(int damage) {
         Debug.Log("Enemy took " + damage + " damage!");
@@ -155,7 +162,7 @@ public class Enemy : MonoBehaviour
     public virtual void Chasing() {
 
         Walk = true;
-        Vector3 targetPos = GetCameraAwareMoveTarget(player.transform.position);
+        Vector3 targetPos = GetCameraAwareMoveTarget(Player.transform.position);
         Vector3 moveDir = (targetPos - transform.position);
         moveDir.y = 0f; // Keep on ground plane
         if (moveDir.sqrMagnitude > 0.05f) {
@@ -179,7 +186,7 @@ public class Enemy : MonoBehaviour
 
     public void RotateToPlayer() {
         if (Distance > 0.1f) {
-            Vector3 delta =player.transform.position - transform.position;
+            Vector3 delta =Player.transform.position - transform.position;
             delta.y = 0;
             transform.rotation = Quaternion.LookRotation(delta);
         }

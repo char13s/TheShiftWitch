@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6a1428601fa4f45af59a32770f16c4, type: 3}
+  m_Name: Heavy Knight
+  m_EditorClassIdentifier: 
+  knightType: 3
+  hasShield: 0
+  canCastMagic: 0
+  hasLightAttackHyperArmor: 1
+  moveSpeed: 4.2
+  strafeSpeed: 2.4
+  preferredCombatRange: 2.4
+  castPreferredRange: 9
+  rotationSpeed: 10
+  decisionInterval: 1.1
+  meleeWindup: 0.45
+  meleeRecovery: 0.65
+  heavyChargeDuration: 1.5
+  heavyRecoveryDuration: 1.8
+  specialCooldown: 5
+  lightComboDamage: 12
+  heavyOrBashDamage: 22
+  magicOrAoeDamage: 28
+  rushSpeed: 13
+  rushDuration: 0.75
