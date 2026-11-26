@@ -1,9 +1,12 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     private static Player instance;
     public static Player GetPlayer() => instance;
+
+    CinemachineImpulseSource pulse;
 
     bool isDead = false;
     bool isAttacking = false;
@@ -22,5 +25,18 @@ public class Player : MonoBehaviour
         else {
             instance = this;
         }
+        pulse = GetComponent<CinemachineImpulseSource>();
+    }
+    private void OnEnable() {
+        Hitbox.onImpact += PlayDynamicShake;
+    }
+    private void OnDisable() {
+        Hitbox.onImpact -= PlayDynamicShake;
+    }
+    private void PlayDynamicShake(float intensity) {
+        if (pulse == null) return;
+        Vector3 shakeVector = new Vector3(intensity, intensity, intensity);
+        pulse.GenerateImpulseWithVelocity(shakeVector);
+
     }
 }

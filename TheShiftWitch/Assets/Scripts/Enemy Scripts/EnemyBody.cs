@@ -11,9 +11,9 @@ public class EnemyBody : MonoBehaviour
         body = enemy.GetComponent<MeshRenderer>();
     }
     public void SetBodyColor(Color color) {
-        StartCoroutine(ChangeColorTemporarily(color, 0.2f));
+        //StartCoroutine(ChangeColorTemporarily(color, 0.2f));
         Enemy.TakeDamage(50);
-        if(!enemy.Dead)
+        //if(!enemy.Dead)
             enemy.Anim.Play("HitReaction");
     }
     IEnumerator ChangeColorTemporarily(Color color, float duration) {
