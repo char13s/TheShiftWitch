@@ -7,7 +7,7 @@ using UnityEngine.Events;
 #pragma warning disable 0649
 public class EnemyHitBox : MonoBehaviour
 {
-    public enum EnemyHitBoxType { Normal, Fireball, Slam, Beam, Slash, Stab, Lightning, IceShard }
+    public enum EnemyHitBoxType { Normal, Fireball,Heavy, Slam, Beam, Slash, Stab, Lightning, IceShard }
     public enum hitType
     {
         normal,
@@ -33,6 +33,8 @@ public class EnemyHitBox : MonoBehaviour
     public Elements Element { get => element; set => element = value; }
     public int ElementalDmg { get => elementalDmg; set => elementalDmg = value; }
     public hitType Hittype { get => hittype; set => hittype = value; }
+    public int Dmg { get => dmg; set => dmg = value; }
+
     // Start is called before the first frame update
     void Start() {
         player = Player.GetPlayer();
@@ -57,7 +59,7 @@ public class EnemyHitBox : MonoBehaviour
     }
     public void InitializeHitBox(Enemy caster, int damageValue, int elementalDamageValue = 0) {
         this.enemy = caster;
-        this.dmg = damageValue;
+        this.Dmg = damageValue;
         this.elementalDmg = elementalDamageValue;
     }
     private void OnTriggerEnter(Collider other) {
@@ -152,12 +154,12 @@ public class EnemyHitBox : MonoBehaviour
     }
     private void DetermineDamage() {
         if (!player.IsInvincible) {
-            Enemy.CalculateAttack(dmg);
+            Enemy.CalculateAttack(Dmg);
         }
     }
     private void DetermineDamageRemotely() {
         if (!player.IsInvincible) {
-            Enemy.CalculateAttack(dmg);
+            Enemy.CalculateAttack(Dmg);
         }
 
     }

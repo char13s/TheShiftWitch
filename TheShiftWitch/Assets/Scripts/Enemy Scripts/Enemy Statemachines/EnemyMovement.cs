@@ -1,16 +1,20 @@
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : StateMachineBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] bool isMovingForward;
+    [SerializeField] private Vector3 move;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private float start;
+    [SerializeField] private float finish;
+    [SerializeField] private bool loop;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+        if (stateInfo.normalizedTime >= start && (stateInfo.normalizedTime <= finish||loop)) {
+            if (isMovingForward && animator.GetComponent<CharacterController>())
+                animator.GetComponent<CharacterController>().Move(animator.gameObject.transform.forward * moveSpeed * Time.deltaTime);
+            else
+                animator.GetComponent<CharacterController>().Move(move * moveSpeed * Time.deltaTime);
+        }
     }
 }

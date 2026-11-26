@@ -13,6 +13,8 @@ public class EnemyBody : MonoBehaviour
     public void SetBodyColor(Color color) {
         StartCoroutine(ChangeColorTemporarily(color, 0.2f));
         Enemy.TakeDamage(50);
+        if(!enemy.Dead)
+            enemy.Anim.Play("HitReaction");
     }
     IEnumerator ChangeColorTemporarily(Color color, float duration) {
         Color originalColor = body.material.color;
