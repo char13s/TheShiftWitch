@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     bool isAttacking = false;
     bool isInvincible = false;
     bool isPlayingSkill = false;
+    bool hasTarget;
+    bool lockedOn;
     float moveSpeed = 7;
     public bool IsInvincible { get => isInvincible; set => isInvincible = value; }
     public bool IsAttacking { get => isAttacking; set => isAttacking = value; }
@@ -26,6 +28,8 @@ public class Player : MonoBehaviour
     public Animator Anim { get => anim; set => anim = value; }
     public int Health { get => health; set { health = value; ProcessHealth(); } }
     public int Mp { get => mp; set => mp = value; }
+    public bool LockedOn { get => lockedOn; set => lockedOn = value; }
+    public bool HasTarget { get => hasTarget; set => hasTarget = value; }
 
     private void Awake() {
         if (instance != null && instance != this) {

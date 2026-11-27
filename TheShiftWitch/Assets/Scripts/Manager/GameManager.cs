@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
     private void PauseGame() {
         pause = true;
         Time.timeScale = 0;
@@ -69,5 +70,8 @@ public class GameManager : MonoBehaviour
     IEnumerator waitToStopRumble() {
         yield return new WaitForSecondsRealtime(0.2f);
         Gamepad.current?.SetMotorSpeeds(0, 0);
+    }
+    public void QuitGame() { 
+    Application.Quit();
     }
 }

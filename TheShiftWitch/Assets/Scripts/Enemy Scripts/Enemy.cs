@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     public enum EnemyAiStates { Null, Idle, Attacking, Chasing, ReturnToSpawn, Dead, Hit, StatusEffect, Grabbed, Staggered };
 
     [SerializeField]private GameObject shieldObj;
+    [SerializeField] private GameObject finisherTrigger;
+    [SerializeField] private GameObject centerPoint;
     [SerializeField] private EnemyAiStates state;
     #region data
     private float distance;
@@ -27,6 +29,7 @@ public class Enemy : MonoBehaviour
     int shield;
     bool grounded;
     int cooldown;
+    bool lockedOn;
     Coroutine hitCoroutine;
     #endregion
 
@@ -54,13 +57,23 @@ public class Enemy : MonoBehaviour
 
     public bool Dead { get => dead; set { dead = value; Anim.SetBool("Dead",value); }
 }
+
+    public bool LockedOn { get => lockedOn; set => lockedOn = value; }
+    public GameObject CenterPoint { get => centerPoint; set => centerPoint = value; }
+    private void OnEnable() {
+        PlayerLockOn.Enemies.Add(this);
+    }
     private void Awake() {
         Anim=GetComponent<Animator>();
         charCon = GetComponent<CharacterController>();
+        GameObject center = Instantiate(new GameObject("Center Point"), transform);
+        center.transform.position = CharCon.bounds.center;
+        centerPoint = center;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         print("start");
         Player=Player.GetPlayer();
     }

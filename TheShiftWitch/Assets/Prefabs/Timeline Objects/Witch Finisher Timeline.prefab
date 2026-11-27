@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 8817967115217163385}
   - component: {fileID: 3782977746149415292}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Witch Finisher Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,6 +153,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  targetController: {fileID: 0}
 --- !u!1 &1700997691846532469
 GameObject:
   m_ObjectHideFlags: 0
