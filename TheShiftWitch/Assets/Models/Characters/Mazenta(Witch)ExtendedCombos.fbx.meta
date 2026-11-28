@@ -988,7 +988,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.rig|Witch Attack 1
+      name: Witch Attack 1
       takeName: Armature.rig|Witch Attack 1
       internalID: 2236309635629481362
       firstFrame: 0

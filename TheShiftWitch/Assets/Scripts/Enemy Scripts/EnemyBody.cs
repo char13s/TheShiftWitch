@@ -12,14 +12,27 @@ public class EnemyBody : MonoBehaviour
     }
     public void SetBodyColor(Color color) {
         //StartCoroutine(ChangeColorTemporarily(color, 0.2f));
-        Enemy.TakeDamage(50);
+        Enemy.TakeDamage(10);
         //if(!enemy.Dead)
-            enemy.Anim.Play("HitReaction");
+
+            
     }
     IEnumerator ChangeColorTemporarily(Color color, float duration) {
         Color originalColor = body.material.color;
         body.material.color = color;
         yield return new WaitForSeconds(duration);
         body.material.color = originalColor;
+    }
+    public void HitReactionType(HitBoxType type) {
+        switch (type) {
+            case HitBoxType.Normal:
+                enemy.Anim.Play("HitReaction");
+                break;
+            case HitBoxType.Magic:
+                break;
+            case HitBoxType.Heavy:
+                enemy.Anim.Play("KnockedBack");
+                break;
+        }
     }
 }

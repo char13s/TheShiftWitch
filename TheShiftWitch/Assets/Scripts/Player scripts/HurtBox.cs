@@ -4,6 +4,7 @@ using UnityEngine.Events;
 public class HurtBox : MonoBehaviour
 {
     public static event UnityAction<float> onImpact;
+    public static event UnityAction<float, float> impulse;
     Player player;
     private void Start() {
         player = GetComponentInParent<Player>();
@@ -13,6 +14,7 @@ public class HurtBox : MonoBehaviour
             WhichReaction(other.GetComponent<EnemyHitBox>());
             player.TakeDamage(other.GetComponent<EnemyHitBox>().Dmg);
             onImpact?.Invoke(0.2f);
+            impulse?.Invoke(0.2f,0.2f);
         }
         print("something hit me");
     }

@@ -15,11 +15,19 @@ public class GameManager : MonoBehaviour
         PlayerInputs.onPause += PauseGameControls;
         Hitbox.onHitStop += StartHitStop;
         LevelManager.unPauseGame += UnpauseGame;
+        ParryBox.rumbleEvent += BeginRumbling;
+        ParryBox.hitstopEvent += StartHitStop;
+        HurtBox.impulse += BeginRumbling;
+        Hitbox.impulse += BeginRumbling;
     }
     private void OnDisable() {
         PlayerInputs.onPause -= PauseGameControls;
         Hitbox.onHitStop -= StartHitStop;
         LevelManager.unPauseGame -= UnpauseGame;
+        ParryBox.rumbleEvent -= BeginRumbling;
+        HurtBox.impulse -= BeginRumbling;
+        ParryBox.hitstopEvent -= StartHitStop;
+        Hitbox.impulse -= BeginRumbling;
     }
     void Start()
     {
